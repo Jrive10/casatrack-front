@@ -8,7 +8,7 @@ function Profile() {
   const fetchUser = async () => {
     try {
       // Fetch user data from your backend API
-      const response = await fetch("http://localhost:4000/user-profile", {
+      const response = await fetch(" https://casatrack-a21bc87c87bc.herokuapp.com/", {
         headers: {
           Authorization: `Bearer ${localStorage.getItem("token")}`,
         },
